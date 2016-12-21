@@ -1,0 +1,106 @@
+body {font-size:28px;}
+
+.color-rosa{color:pink;}
+
+h3 { font-family: "Amatic SC", cursive, sans-serif; }
+
+article h3.titulo{color:green;}
+
+.titulo{font-size: 80px;
+font-style: italic;
+font-weight: 900;
+color:blue ;
+text-decoration: underline;
+text-transform: uppercase;
+font-family: 'Amatic SC', cursive, sans-serif;
+color: red;}
+
+.titulo {color:red;}
+
+.cuadrado{
+	height:200px;
+	width: 200px;
+	background-color: blue;
+	border-top: 4px solid red;
+	border-left: 10px dotted yellow;
+	border-right: 4px dashed orange;
+	border-bottom: 3px double pink;
+}
+
+.boton {
+	background: red;
+	color:white;
+	text-decoration: none;
+	font-size: 50px;
+}
+.boton:hover{
+	background: blue;
+	color:yellow;
+}
+
+.Elemento li{
+	color:red;
+}
+
+.Elemento li:first-child{
+	color:blue;
+}
+
+.Elemento li:last-child{
+	color:green;
+}
+
+.Elemento li:nth-child(2){
+	color:pink;
+}
+
+.Elemento li:nth-child(odd){
+	background:gray;
+}
+
+.circulo{
+    border-radius: 50%;
+    height:200px;
+    width: 200px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+    border: 10px dotted black;
+}
+
+.circulo1{
+    background:red;
+}
+
+.circulo2{
+	background-color: green;
+}
+
+.circulo3{
+	background-color: yellow;
+}
+
+.parrafo{
+	line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.icono{    font-size: 40px;
+    color: #3b5998;}
+
+.icono2{
+	font-size: 40px;
+	color: #55acee;
+}
+
+.icono3{
+	font-size: 40px;
+	color: #125688;
+}
+
+.icono4{
+	font-size: 40px;
+	color: #007bb5;
+}
+
+.lista{
+	list-style: none;
+}
